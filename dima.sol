@@ -21,14 +21,14 @@ contract Dima is IERC20 {
 
     string public constant name = "Dima20";
     string public constant symbol = "Dima";
-    uint8 public constant decimals = 18;
+    uint8 public constant decimals = 1;
 
 
     mapping(address => uint256) balances;
 
     mapping(address => mapping (address => uint256)) allowed;
 
-    uint256 totalSupply_ = 10 ether;
+    uint256 totalSupply_ = 100;
 
 
    constructor() {
